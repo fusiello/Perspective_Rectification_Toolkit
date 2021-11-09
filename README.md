@@ -2,6 +2,8 @@
 
 ###  Andrea Fusiello, 2020
 
+![banner](http://www.diegm.uniud.it/%7Efusiello/demo/rect/bannerraddrizza.jpg)
+
 This toolkit is a collection of Matlab functions and scripts implementing perspective rectification (or control or correction) of an image ("raddrizzamento": in Italian).  
 
 It requires functions contained in the [Computer Vision Toolkit] (http://www.diegm.uniud.it/fusiello/demo/toolkit/ComputerVisionToolkit.zip) by the same author.
