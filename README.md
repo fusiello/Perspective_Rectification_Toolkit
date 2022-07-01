@@ -2,9 +2,9 @@
 
 ###  Andrea Fusiello, 2020
 
-![banner](http://www.diegm.uniud.it/%7Efusiello/demo/rect/bannerraddrizza.jpg)
+![banner](https://fusiello.github.io/demo/rect/bannerraddrizza.jpg)
 
-This toolkit is a collection of Matlab functions and scripts implementing perspective rectification (or control or correction) of an image ("raddrizzamento": in Italian).  
+This toolkit is a collection of Matlab functions and scripts implementing perspective rectification (or control, or correction) of an image ("raddrizzamento": in Italian).  
 
 It requires functions contained in the [Computer Vision Toolkit] (http://www.diegm.uniud.it/fusiello/demo/toolkit/ComputerVisionToolkit.zip) by the same author.
 
@@ -17,7 +17,7 @@ Perspective rectification transforms the original image with a homography such t
 - angles are preserved (i.e. can be measured in the image of the plane);
 - distances can be measured in the image (of the plane) as soon as the scale is known. 
 
-The reference plane typically is the ground or a facade. 
+The reference plane is typically the ground or a facade. 
 
 As emphasized above, the similarity is valid *only* for the reference plane. The image of all the other object points (excluding other planes parallel to the reference one) is distorted. This rectified (or controlled) photo is *not the same as an orthophoto*.
 
@@ -29,9 +29,9 @@ Two input modes are implemented (selectable by changing a string in the script):
 
 See also `SelectionOrder.png`
 
-In any case horizontal and vertical scales are guessed, so that a default  is submitted to the user that does not have access to any measure.  An independent scaling of the two axes can be easily applied also a-posteriori.
+In any case horizontal and vertical scales are guessed, so that a default  is submitted to the user that does not have access to any measure.  An independent scaling of the two axes can be easily applied a-posteriori.
 
-The folders contain also a sample image with saved point selection, so that  the script runs without user intervention. To activate the point selection  uncomment the appropriate lines in the script `runPRectif`.
+The folders contain also a sample image with saved point selection, so that  the script runs out-of-the-box without user intervention. To activate the point selection  uncomment the appropriate lines in the script `runPRectif`.
 
 
 References:
